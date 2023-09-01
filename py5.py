@@ -3,7 +3,7 @@ import pandas as pd
 # Create inline data
 data = {'Name': ['Alice', 'Bob', 'Charlie', 'Dave', 'Emily'],
         'Age': [25, 32, 18, 47, 29],
-        'Salary': [50000, 70000, 30000, 90000, 60000]}
+        'Salary': [50000, 70000, 3000, 90000, 60000]}
 
 # Load inline data into a Pandas DataFrame
 df = pd.DataFrame(data)
