@@ -1,18 +1,15 @@
-%pip install xgboost
-%pip install mlflow
-
 import pandas as pd
-import xgboost as xgb
-import mlflow
-import mlflow.xgboost
 
-raw_input = 
-pd.read_csv("/dbfs/databricks-datasets/Rdatasets/data-001/csv/datasets/iris.csv",
-                        header = 0,
-                       names=["item","sepal length","sepal width", "petal 
-length", "petal width","class"])
-new_input = raw_input.drop(columns=["item"])
-new_input["class"] = new_input["class"].astype('category')
-new_input["classIndex"] = new_input["class"].cat.codes
-print(new_input)
-print('finished')
+# Create inline data
+data = {'Name': ['Alice', 'Bob', 'Charlie', 'Dave', 'Emily'],
+        'Age': [25, 32, 18, 47, 29],
+        'Salary': [50000, 70000, 30000, 90000, 60000]}
+
+# Load inline data into a Pandas DataFrame
+df = pd.DataFrame(data)
+
+# Calculate average salary
+avg_salary = df['Salary'].mean()
+
+# Print average salary
+print(f"Average salary: ${avg_salary:.2f}")
