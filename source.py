@@ -18,3 +18,7 @@ display(spark.sql("SELECT * FROM diamonds LIMIT 10"))
 # COMMAND ----------
 
 
+
+# COMMAND ----------
+
+2
