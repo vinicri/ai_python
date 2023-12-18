@@ -16,3 +16,8 @@
 
 # MAGIC %sql
 # MAGIC SELECT * FROM my_tab
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SELECT * FROM my_tab2
