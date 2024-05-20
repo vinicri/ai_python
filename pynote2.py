@@ -5,7 +5,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT * FROM a
+# MAGIC SELECT * FROM diamonds
 
 # COMMAND ----------
 
