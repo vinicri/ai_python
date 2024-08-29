@@ -1,18 +1,18 @@
 # Databricks notebook source
 # MAGIC %sql
-# MAGIC SELECT 1;
+# MAGIC SELECT 20;
 
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT 2;
+# MAGIC SELECT 21;
 
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT 3;
+# MAGIC SELECT 22;
 
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT 4;
+# MAGIC SELECT 23;
